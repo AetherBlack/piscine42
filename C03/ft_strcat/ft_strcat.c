@@ -7,8 +7,6 @@ char *ft_strcat(char *dest, char *src)
     for (; *src; src++, dest++)
         *dest = *src;
 
-    *dest = 0x0;
-
     return dest;
 }
 
